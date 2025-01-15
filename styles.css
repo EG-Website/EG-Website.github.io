@@ -202,7 +202,6 @@ body {
     float: left;
     width: 100%;
     flex-direction: row;
-    justify-content: left;
     margin-top: 1em;
   }
 
@@ -257,16 +256,20 @@ p+ul {
   color: #301425;
 }
 
+.nav-link{
+  text-decoration: underline;
+}
+
 .nav-link:hover {
   color: #562342;
 }
 
-.nav-link:hover .svg-fill {
-  color: #562342;
+.nav-link:hover {
+  color: #883667;
 }
 
 .nav-link:active {
-  color: #562342;
+  color: #883667;
 }
 
 @keyframes slideInFromBottom {
