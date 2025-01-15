@@ -1,7 +1,14 @@
+body {
+  background-color: rgb(253, 253, 243);
+}
+
 .prevent-select {
-  -webkit-user-select: none; /* Safari */
-  -ms-user-select: none; /* IE 10 and IE 11 */
-  user-select: none; /* Standard syntax */
+  -webkit-user-select: none;
+  /* Safari */
+  -ms-user-select: none;
+  /* IE 10 and IE 11 */
+  user-select: none;
+  /* Standard syntax */
 }
 
 @font-face {
@@ -10,17 +17,18 @@
   src: url("CitadelScriptStd.otf") format("opentype");
 }
 
-.bg-dark{
+.bg-dark {
   background-color: #000D17 !important;
 }
 
-.fg-dark{
+.fg-dark {
   fill: #000D17 !important;
 }
 
 .img-fluid {
   height: 300px;
 }
+
 .img-fluid-container {
   height: 310px;
   width: 310px;
@@ -29,7 +37,7 @@
   transform: translateX(10px);
 }
 
-.page-title{
+.page-title {
   font-weight: 600;
   color: #35596f;
   font-family: "CitadelScript", serif;
@@ -39,26 +47,29 @@
 }
 
 @media (max-width: 217.98px) {
-  .page-title{
+  .page-title {
     font-size: 1rem !important;
   }
 
-  
-  .navbar-nav{
+
+  .navbar-nav {
     width: 100%;
     margin-top: 1em;
 
   }
-  .navbar-nav .nav-item .nav-link{
+
+  .navbar-nav .nav-item .nav-link {
     text-align: center;
   }
 
-  h1, h2, h3{
+  h1,
+  h2,
+  h3 {
     text-align: center;
- 
+
   }
 
-  #contact{
+  #contact {
     text-align: center;
   }
 }
@@ -66,132 +77,142 @@
 
 @media (min-width: 217.98px) and (max-width: 449.98px) {
 
-  h1{
+  h1 {
     text-align: center;
   }
-  .page-title{
+
+  .page-title {
     font-size: 2rem !important;
   }
 
-  .navbar-nav .nav-item .nav-link{
+  .navbar-nav .nav-item .nav-link {
     float: left;
     margin-right: .5em;
   }
 
-  .navbar-nav{
+  .navbar-nav {
     width: 100%;
     flex-direction: row;
     justify-content: center;
     margin-top: 1em;
   }
-  #contact{
-    text-align: center;
-  } 
-}
 
+  #contact {
+    text-align: center;
+  }
+}
 
 @media (min-width: 449.99px) and (max-width: 575.98px) {
 
-  .page-title{
+  .page-title {
     font-size: 6rem !important;
   }
 
-  .navbar-nav .nav-item .nav-link{
+  .navbar-nav .nav-item .nav-link {
     font-size: large;
   }
 
-  .navbar-nav{
+  .navbar-nav {
     width: 100%;
     flex-direction: row;
     justify-content: center;
     margin-top: 1em;
   }
-  .nav-item .nav-link{
+
+  .nav-item .nav-link {
     margin: 0 1em;
   }
 }
 
-@media (min-width: 575.98px) and (max-width: 991.98px) {  
-  .page-title{
-      font-size: 6rem ;
-    }
-  .navbar-nav{
-      width: 100%;
-      flex-direction: row;
-      margin-top: 1em;
-    }
-  .nav-item .nav-link{
+@media (min-width: 575.98px) and (max-width: 991.98px) {
+  .page-title {
+    font-size: 6rem;
+  }
+
+  .navbar-nav {
+    width: 100%;
+    flex-direction: row;
+    margin-top: 1em;
+  }
+
+  .nav-item .nav-link {
     font-size: large;
     margin: 0 1em;
   }
 }
 
-@media  (min-width: 991.99px) and (max-width: 1199.98px) { 
-  .navbar{
+@media (min-width: 991.99px) and (max-width: 1199.98px) {
+  .navbar {
     flex-wrap: wrap;
   }
-  .page-title{
+
+  .page-title {
     font-size: 6rem !important;
     order: 0;
-
   }
-  .navbar-nav{
+
+  .navbar-nav {
     order: 1;
   }
-  .navbar-nav .nav-item .nav-link{
 
+  .navbar-nav .nav-item .nav-link {
     align-self: end;
     font-size: larger;
     margin: 0 1em;
   }
 }
 
-@media  (min-width: 1199.98px) and (max-width: 1399.98px) { 
-  .page-title{
+@media (min-width: 1199.98px) and (max-width: 1399.98px) {
+  .page-title {
     font-size: 8rem !important;
     align-self: start;
     order: 0;
   }
-  .navbar{
+
+  .navbar {
     display: inline-block;
   }
-  .navbar-nav{
+
+  .navbar-nav {
     order: 1;
     width: 100%;
     margin-top: 1em;
   }
-  .navbar-nav .nav-item .nav-link{
+
+  .navbar-nav .nav-item .nav-link {
     font-size: x-large;
     margin-left: 2em;
 
   }
 }
 
-@media (min-width: 1399.99px) { 
-  .navbar{
+@media (min-width: 1399.99px) {
+  .navbar {
     display: flex;
     flex-wrap: wrap !important;
 
   }
-  .page-title{
-    font-size:10rem !important;
+
+  .page-title {
+    font-size: 10rem !important;
   }
-  .navbar-nav{
+
+  .navbar-nav {
     float: left;
     width: 100%;
     flex-direction: row;
     justify-content: left;
     margin-top: 1em;
   }
-  
-  .nav-item .nav-link{
-    
+
+  .nav-item .nav-link {
+
     font-size: xx-large;
     margin: 0 1em;
   }
 }
 
-h1{
+h1 {
   font-family: "CitadelScript", serif;
   font-optical-sizing: auto;
   font-weight: 200;
@@ -201,58 +222,57 @@ h1{
 
 
 
-p + ul {
+p+ul {
   margin-top: -1em;
 }
 
-#skills li{
+#skills li {
   list-style: square;
 }
 
-.social-links{
+.social-links {
   font-size: 2rem;
 }
 
 
-.text-cyan:link, .text-cyan:visited{
+.text-cyan:link,
+.text-cyan:visited {
   color: #301425;
   fill: #301425;
 }
 
-.text-magenta:link, .text-magenta:visited{
+.text-magenta:link,
+.text-magenta:visited {
   color: #301425;
 }
 
-.text-yellow:link, .text-yellow:visited{
+.text-yellow:link,
+.text-yellow:visited {
   color: #301425;
 }
 
-.text-green:link, .text-green:visited{
+.text-green:link,
+.text-green:visited {
   color: #301425;
 }
 
-.nav-link:hover{
+.nav-link:hover {
   color: #562342;
 }
 
-.nav-link:hover .svg-fill{
+.nav-link:hover .svg-fill {
   color: #562342;
 }
 
-
-.nav-link:active{
+.nav-link:active {
   color: #562342;
 }
-
-
-/* .text-transition{
-  transition: font-size .2s;
-} */
 
 @keyframes slideInFromBottom {
   0% {
     transform: translateY(calc(100vh + 100%));
   }
+
   100% {
     transform: translateY(0);
   }
@@ -262,6 +282,7 @@ p + ul {
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
@@ -271,32 +292,31 @@ p + ul {
   0% {
     opacity: 1;
   }
+
   100% {
     opacity: 1;
   }
 }
 
-.inactive{
+.inactive {
   opacity: 0;
 }
 
-.activate{
+.activate {
   opacity: 1;
 }
 
-.active-transition{
+.active-transition {
   transition: opacity 1s ease-in-out;
 }
 
-
-
-.opacityInDelay { 
+.opacityInDelay {
   opacity: 0;
   animation: 1s ease-in-out 2s 1 opacityIn;
   animation-fill-mode: forwards;
 }
 
-.opacityInContent { 
+.opacityInContent {
   animation: 1s ease-in-out 1s 1 opacityIn;
   animation-fill-mode: forwards;
 }
@@ -305,11 +325,10 @@ p + ul {
   animation: 1s ease-in-out 0s 1 slideInFromBottom;
 }
 
-.textSlideInFromBottomSlow {  
+.textSlideInFromBottomSlow {
   animation: 2s ease-in-out 0s 1 slideInFromBottom;
 }
 
-
-#contentRow{
+#contentRow {
   margin-top: 1em;
 }
